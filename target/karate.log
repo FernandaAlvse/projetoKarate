@@ -1,0 +1,645 @@
+17:02:55.533 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:02:55.580 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^To get all the data from application in JSON format$
+17:02:56.797 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:02:57.436 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:02:58.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 985
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 26 Aug 2022 20:03:00 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:02:59.134 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:04:57.581 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:04:57.581 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661544297581
+17:04:57.612 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^To get all the data from application in JSON format$
+17:04:58.722 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:04:59.237 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:05:00.237 [main] DEBUG com.intuit.karate - response time in milliseconds: 985
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 26 Aug 2022 20:05:01 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:05:00.968 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:05:37.398 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:05:37.414 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661544337398
+17:05:37.445 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^To get all the data from application in JSON format$
+17:05:38.586 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:05:39.101 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:05:40.039 [main] DEBUG com.intuit.karate - response time in milliseconds: 938
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 26 Aug 2022 20:05:41 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:05:40.086 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:7
+Then status 401
+status code was: 200, expected: 401, response time in milliseconds: 938, url: https://jobportalkarate.herokuapp.com/normal/webapi/all, response: 
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+src/test/java/com/api/automation/getrequest/getrequest.feature:7
+17:05:40.789 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:06:24.237 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:06:24.243 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661544384242
+17:06:24.275 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^To get all the data from application in JSON format$
+17:06:25.393 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:06:25.938 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:06:26.848 [main] DEBUG com.intuit.karate - response time in milliseconds: 822
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 26 Aug 2022 20:06:28 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:06:27.503 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+16:32:38.141 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:32:38.172 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661801558172
+16:32:38.281 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^To get all the data from application in JSON format$
+16:32:39.441 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:32:40.410 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:32:41.893 [main] DEBUG com.intuit.karate - response time in milliseconds: 1483
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 19:32:45 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+16:32:42.831 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+16:33:33.598 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:33:33.613 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661801613598
+16:33:33.629 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4 - ^To get all the data from application in JSON format$
+16:33:34.638 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:33:35.153 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:33:36.122 [main] DEBUG com.intuit.karate - response time in milliseconds: 969
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 19:33:40 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+16:33:36.154 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:7
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 969, url: https://jobportalkarate.herokuapp.com/normal/webapi/all, response: 
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+src/test/java/com/api/automation/getrequest/getrequest.feature:7
+16:33:36.779 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:17:15.038 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:17:16.148 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:17:16.648 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:17:33.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 17199
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:17:37 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:23:48.795 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:23:50.017 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:50.576 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:51.531 [main] DEBUG com.intuit.karate - response time in milliseconds: 953
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:23:55 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:23:51.568 [main] ERROR com.intuit.karate - classpath:com/api/automation/getrequest/getrequest.feature:8
+Then status 202
+status code was: 200, expected: 202, response time in milliseconds: 953, url: https://jobportalkarate.herokuapp.com/normal/webapi/all, response: 
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+classpath:com/api/automation/getrequest/getrequest.feature:8
+17:31:31.272 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:31:31.277 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661805091276
+17:31:31.308 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^To get all the data from application in JSON format$
+17:31:32.424 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:31:32.940 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:31:33.986 [main] DEBUG com.intuit.karate - response time in milliseconds: 1043
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:31:38 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:31:34.019 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13 - ^To get all the data from application in JSON format$
+17:31:34.027 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:31:34.043 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:15
+And path '/normal/webapi/all''
+js failed:
+>>>>
+01: '/normal/webapi/all''
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:21 Missing close quote
+'/normal/webapi/all''
+                     ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:373)
+- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:82)
+- sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/com/api/automation/getrequest/getrequest.feature:15
+17:31:34.778 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:32:16.166 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:32:16.170 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661805136170
+17:32:16.199 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5 - ^To get all the data from application in JSON format$
+17:32:17.215 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:32:17.742 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:32:18.705 [main] DEBUG com.intuit.karate - response time in milliseconds: 961
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:32:22 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:32:18.737 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13 - ^To get all the data from application in JSON format$
+17:32:18.743 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:32:18.746 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:32:19.378 [main] DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:32:22 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:32:20.104 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:35:47.611 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:35:47.616 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661805347615
+17:35:47.648 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^To get all the data from application in JSON format$
+17:35:48.665 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:35:49.136 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:35:50.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 956
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:35:54 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:35:50.126 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^To get all the data from application in JSON format$
+17:35:50.133 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:35:50.136 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:35:50.765 [main] DEBUG com.intuit.karate - response time in milliseconds: 629
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:35:54 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:35:51.432 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:37:21.710 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:37:21.717 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661805441716
+17:37:21.753 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9 - ^To get all the data from application in JSON format$
+17:37:22.873 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:22.926 [main] INFO  com.intuit.karate - [print] deu certo 
+17:37:23.438 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:24.424 [main] DEBUG com.intuit.karate - response time in milliseconds: 983
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:37:28 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:37:24.456 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^To get all the data from application in JSON format$
+17:37:24.461 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:37:24.464 [main] INFO  com.intuit.karate - [print] deu certo 
+17:37:24.466 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:37:25.111 [main] DEBUG com.intuit.karate - response time in milliseconds: 645
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:37:28 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:37:25.783 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:45:46.162 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:45:46.170 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661805946169
+17:45:47.233 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:45:47.286 [main] INFO  com.intuit.karate - [print] deu certo 
+17:45:47.774 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:45:48.797 [main] DEBUG com.intuit.karate - response time in milliseconds: 1020
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:45:52 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:45:48.836 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:45:48.839 [main] INFO  com.intuit.karate - [print] deu certo 
+17:45:48.840 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:21
+And header Accept ='application/json'
+no step-definition method match found for: header Accept ='application/json'
+src/test/java/com/api/automation/getrequest/getrequest.feature:21
+17:45:48.846 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:45:48.847 [main] INFO  com.intuit.karate - [print] deu certo 
+17:45:48.847 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:29
+And header Accept ='application/xml'
+no step-definition method match found for: header Accept ='application/xml'
+src/test/java/com/api/automation/getrequest/getrequest.feature:29
+17:45:49.517 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:48:10.763 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:48:10.768 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661806090768
+17:48:10.815 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9 - ^To get all the data from application in JSON format$
+17:48:11.918 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:48:11.965 [main] INFO  com.intuit.karate - [print] deu certo 
+17:48:12.451 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:48:13.428 [main] DEBUG com.intuit.karate - response time in milliseconds: 974
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:48:17 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:48:13.463 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^To get all the data from application in JSON format$
+17:48:13.470 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:48:13.473 [main] INFO  com.intuit.karate - [print] deu certo 
+17:48:13.474 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:21
+And header Accept ='application/json'
+no step-definition method match found for: header Accept ='application/json'
+src/test/java/com/api/automation/getrequest/getrequest.feature:21
+17:48:13.476 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 26 - ^To get all the data from application in JSON format$
+17:48:13.481 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:48:13.483 [main] INFO  com.intuit.karate - [print] deu certo 
+17:48:13.484 [main] ERROR com.intuit.karate - src/test/java/com/api/automation/getrequest/getrequest.feature:29
+And header Accept ='application/xml'
+no step-definition method match found for: header Accept ='application/xml'
+src/test/java/com/api/automation/getrequest/getrequest.feature:29
+17:48:14.249 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
+17:50:24.193 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:50:24.200 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1661806224198
+17:50:25.309 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:25.356 [main] INFO  com.intuit.karate - [print] deu certo 
+17:50:25.837 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:50:26.785 [main] DEBUG com.intuit.karate - response time in milliseconds: 945
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:50:30 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:50:26.823 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:26.826 [main] INFO  com.intuit.karate - [print] deu certo 
+17:50:26.830 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Accept: application/json
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:50:27.470 [main] DEBUG com.intuit.karate - response time in milliseconds: 640
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:50:30 GMT
+1 < Via: 1.1 vegur
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+17:50:27.477 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:27.478 [main] INFO  com.intuit.karate - [print] deu certo 
+17:50:27.480 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jobportalkarate.herokuapp.com/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: jobportalkarate.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:50:28.138 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Content-Type-Options: nosniff
+1 < X-Xss-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 29 Aug 2022 20:50:32 GMT
+1 < Via: 1.1 vegur
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+17:50:29.027 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getrequest/getrequest.feature
